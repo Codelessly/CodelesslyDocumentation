@@ -1,129 +1,88 @@
----
-description: Learn how to publish a canvas and embed it in your app.
----
+# 🎉 Thank you for your purchase!
 
-# 3-Minute Quick Start
+**Please Note:** This page contains important setup information. Please bookmark this page for future reference ([https://docs.codelessly.com](https://docs.codelessly.com)). A purchase confirmation and link to this page will be sent to your email.
 
-## Quick Preview
+### **Getting Started**
 
-Quick preview feature lets you publish and preview a canvas in a single click. The layouts get published instantly and sync with any changes you make in the canvas. This is useful to test and debug the layouts.
+Congratulations on your purchase! We're thrilled to have you on this journey with us.
 
-Select the canvas you wish to publish and press the _Quick Preview_ button in the app bar.
+First, let's get you access to the Codelessly Editor.&#x20;
 
-<figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption><p>Quick Preview Button</p></figcaption></figure>
+**New Account**: If you don't have a Codelessly account yet, please visit [https://app.codelessly.com](https://app.codelessly.com/) to create an account. Remember to signup using your purchase email as the license is linked to your purchase email. Please reach out to support if you would like to use a different email to create an account.
 
-This will upload the canvas and open up a dialog with all the necessary information you need to preview the canvas.
+**Existing Account:** If you have already created a Codelessly account, your account will be automatically upgraded as long as the purchase email is the same as your account email. Please reach out to support if you purchased using a different email and your account has not been upgraded.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Quick Preview Dialog</p></figcaption></figure>
+**Codelessly Editor:** [https://app.codelessly.com](https://app.codelessly.com)
 
-You have two options to preview the uploaded canvas:
+### **1. Create a New Project**
 
-### Loading preview in Codelessly's mobile app
+Press the "+" button to create a new project.
 
-Tap on the _"View a preview" button_.
+<figure><img src=".gitbook/assets/snap_screen_20230721013843.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption><p>"View a preview" Button</p></figcaption></figure>
+Give your project a name.
 
-Scan the QR code from the mobile app's scanner to instantly preview the canvas. Alternatively, you can input the _Preview Key Code_ to load the preview.
+<figure><img src=".gitbook/assets/snap_screen_20230721014057.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption><p>Preview Key Code Field</p></figcaption></figure>
+### 2. Create a New Canvas
 
-This is how the preview looks in the mobile app.
+This is the tools panel. You can hover over each tool to see their name and description. Select the canvas tools and drag in the editor box area to create a new canvas.
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>Canvas Preview in Codelessly's Mobile App</p></figcaption></figure>
+<figure><img src=".gitbook/assets/snap_screen_20230721014211.png" alt=""><figcaption></figcaption></figure>
 
-### **Embedding the preview in your app**
+There are two types of canvases, Freeform Canvas and AutoCanvas.
 
-Copy-paste the provided code to embed the canvas in your app. `CodelesslyWidget`, being a widget, can be embedded anywhere in the widget tree.
+**Freeform Canvas** <img src=".gitbook/assets/snap_screen_20230721014801.png" alt="" data-size="line"> - The traditional design canvas where items are absolute positioned by default.
 
-## CodelesslyWidget
+**AutoCanvas** <img src=".gitbook/assets/snap_screen_20230721015332.png" alt="" data-size="line"> - A familiar "drag and drop" canvas with rows and columns and responsiveness support by default.
 
-`CodelesslyWidget` is a widget that renders the layout by utilizing the data of the canvas you publish from the editor. It takes in the following parameters:
+It's recommended to start with an AutoCanvas as it is designed to be beginner friendly. If you have a complex layout that mixes absolute positioned and layout widgets, start with a Freeform canvas instead.
 
-1. `layoutID`: ID of the published canvas.
-2. `isPreview`: Whether the layout is in preview or production mode. Preview mode is meant for debugging the layout and syncs with the changes made in the editor. Widgets in production mode do not sync and are only updated when explicitly published using the _Publish_ button.
-3. `config`: It takes an instance of `CodelesslyConfig` that holds the information required to fetch the canvas data from the server. `authToken` is required while other parameters are optional.
+### 3. Build Your First Layout with AutoCanvas
 
-## Initializing SDK
+AutoCanvas is as simple as drag and drop. Building layouts has never been easier!
 
-Before you can use `CodelesslyWidget`, you need to initialize the SDK. To do that, simply call the `initializeSDK` method before you render any `CodelesslyWidget`. Ideally, call it in the `main` method.
+<figure><img src=".gitbook/assets/Codelessly Build First Layout AutoCanvas.gif" alt=""><figcaption></figcaption></figure>
 
-```dart
-void main() {
-  Codelessly.initializeSDK();
-  
-  runApp(MyApp());
-}
-```
+To start, drag a widget into the AutoCanvas where it says "Drop a widget here"
 
-`initializeSDK` takes in several parameters to provide complete flexibility. For example, you can declare `config` in this method to make it the default configuration of all `CodelesslyWidget`s, unless overriden.
+<figure><img src=".gitbook/assets/snap_screen_20230721030119.png" alt=""><figcaption></figcaption></figure>
 
-```dart
-Codelessly.initializeSDK(
-  config: const CodelesslyConfig(
-    authToken: authToken,
-  ),
-);
-```
+**Column** - Create a column by dragging to the top or bottom edge.
 
-Similarly, you can declare `data` and `functions` to make them globally accessible.
+<figure><img src=".gitbook/assets/snap_screen_20230721030422.png" alt=""><figcaption></figcaption></figure>
 
-## Example
+**Row** - Create a row by dragging to the left or right edge.
 
-Here's an example of how you can embed a canvas in your app using Codelessly's SDK:
+<figure><img src=".gitbook/assets/snap_screen_20230721030542.png" alt=""><figcaption></figcaption></figure>
 
-```dart
-import 'package:codelessly_sdk/codelessly_sdk.dart';
-import 'package:flutter/material.dart';
+### 4. Build Your First Layout in Freeform Mode
 
-void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  
-  // Initialize SDK.
-  Codelessly.initializeSDK(
-    config: const CodelesslyConfig(
-      authToken: 'LDliZlRlTS5EOTAsUzsrR3VfK0coN2sqbDI9OkVMazN4YXUv',
-    ),
-  );
+By default, the editor is in Freeform mode. Hold down `Ctrl / Cmd` when dragging one widget next to the edge of another widget to build layouts in Freeform mode.
 
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Codelessly SDK Example',
-      debugShowCheckedModeBanner: false,
-      home: SafeArea(
-        // CodelesslyWidget in preview mode.
-        child: CodelesslyWidget(
-          isPreview: true,
-          layoutID: '0QsQaSzQ0A4RIzKKuN8Y',
-        ),
-      ),
-    );
-  }
-}
-```
-
-The app should look like this:
-
-<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption><p>Canvas embedded in app.</p></figcaption></figure>
-
-Since the widget is in preview mode, whenever we make a change to the canvas in the editor, it's instantly reflected in the widget as well.
-
-<figure><img src=".gitbook/assets/L5WxUQ7pAQ.gif" alt=""><figcaption><p>Live Updates</p></figcaption></figure>
-
-## Publishing Layouts
-
-After you have tested your layouts and are ready to make it available to your users, you can publish the layouts by pressing the _Publish_ button.
-
-<figure><img src=".gitbook/assets/image (34).png" alt=""><figcaption><p>Publish Button</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Codelessly Toggle Layout Modes.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Once a canvas is published, it is pushed to the users' devices and remains accessible unless deleted explicitly.
+Ctrl / Cmd toggles between Freeform and Layout mode.
 {% endhint %}
+
+Once you have a layout, Codelessly will intuitively switch between Freeform and layout mode. You can drag widgets into existing layouts without holding down the button.
+
+<figure><img src=".gitbook/assets/Codelessly Drag Into Existing Layout (1).gif" alt=""><figcaption></figcaption></figure>
+
+The same concept applies in reverse. Hold down `Ctrl / Cmd` while dragging over an existing layout to position widgets in Freeform mode.&#x20;
+
+Here, once `Ctrl / Cmd` is pressed, the editor switches to Freeform mode and the Layout grid disappears.
+
+<figure><img src=".gitbook/assets/Codelessly Toggle Freeform in Layout Mode.gif" alt=""><figcaption></figcaption></figure>
+
+### Quick Recap
+
+Pressing `Ctrl / Cmd` to toggle between Freeform and Layout mode is key to building layouts in the Codelessly Editor.
+
+**Scenarios**
+
+* **Outside of canvases** - editor is Freeform by default. Hold down `Ctrl / Cmd` to create layouts.
+* **Inside a Freeform Canvas** - Hold down `Ctrl / Cmd` to create layouts.
+* **Inside of an AutoCanvas** - drag and drop. Hold down `Ctrl / Cmd` to absolute position widgets.
 
