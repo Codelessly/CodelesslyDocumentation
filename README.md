@@ -12,7 +12,7 @@ First, let's get you access to the Codelessly Editor.&#x20;
 
 **Existing Account:** If you have already created a Codelessly account, your account will be automatically upgraded as long as the purchase email is the same as your account email. Please reach out to support if you purchased using a different email and your account has not been upgraded.
 
-**Codelessly Editor:** [https://app.codelessly.com](https://app.codelessly.com)
+**Open the Codelessly Editor:** [https://app.codelessly.com](https://app.codelessly.com)
 
 ### **1. Create a New Project**
 
