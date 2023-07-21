@@ -82,7 +82,7 @@ Pressing `Ctrl / Cmd` to toggle between Freeform and Layout mode is key to build
 
 **Scenarios**
 
-* **Outside of canvases** - editor is Freeform by default. Hold down `Ctrl / Cmd` to create layouts.
-* **Inside a Freeform Canvas** - Hold down `Ctrl / Cmd` to create layouts.
-* **Inside of an AutoCanvas** - drag and drop. Hold down `Ctrl / Cmd` to absolute position widgets.
+* **Outside of a canvas** - Freeform mode. Hold `Ctrl / Cmd` to create layouts.
+* **Inside a Freeform Canvas** - Freeform mode. Hold `Ctrl / Cmd` to create layouts.
+* **Inside of an AutoCanvas** - Layout mode. Hold `Ctrl / Cmd` to absolute position widgets.
 
