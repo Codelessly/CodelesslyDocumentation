@@ -4,6 +4,7 @@
 
 * [▶ Welcome Setup Guide](README.md)
 * [🎉 Thank you for your purchase!](<README (1).md>)
+* [Start a New Project](getting-started/start-a-new-project.md)
 
 ## ⚡ Editor Basics
 
