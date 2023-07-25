@@ -12,7 +12,7 @@ layout:
     visible: false
 ---
 
-# Welcome
+# ▶ Welcome Setup Guide
 
 **Please Note:** This page contains important setup information. Please bookmark this page for future reference ([https://docs.codelessly.com](https://docs.codelessly.com)).
 
