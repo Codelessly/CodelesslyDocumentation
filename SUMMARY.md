@@ -2,7 +2,8 @@
 
 ## 👋 Getting Started
 
-* [🎉 Thank you for your purchase!](README.md)
+* [Welcome](README.md)
+* [🎉 Thank you for your purchase!](<README (1).md>)
 
 ## ⚡ Editor Basics
 
