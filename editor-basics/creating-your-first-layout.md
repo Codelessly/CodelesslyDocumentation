@@ -26,7 +26,7 @@ Freeform is excellent for designers in general, but it fails when it comes to re
 
 #### Auto
 
-With auto layouts, your screens are built out of combinations of **Rows** and **Columns**. Each element is placed in some structured fashion such that the **Rows** and **Columns** control the positioning and sizing of each element. On top of that, each element might size itself different. We'll learn more about how elements can size themselves differently in the next sections.
+With auto layouts, your screens are built out of combinations of **Rows** and **Columns**. Each element is placed in some structured fashion such that the **Rows** and **Columns** control the positioning and sizing of each element. On top of that, each element might size itself with its own rules. We'll learn more about how elements can size themselves differently in the next sections.
 
 ### Creating Rows & Columns
 
@@ -36,9 +36,9 @@ There are two ways to create Rows & Columns.
 
 By holding down the CTRL/CMD key while dragging a node over another node, you will see an insertion UI that gives you feedback on what you want to do. For nodes that don't support nodes being inserted inside of them, you will only see edge-highlighting with an indicator on what will happen when you release the cursor.
 
-If you release your cursor while hovering near the bottom or top edges of a node, both nodes will be wrapped inside of a newly created Column.
+If you release your cursor while hovering near the **bottom or top edges** of a node, both nodes will be wrapped inside of a newly created **Column**.
 
-If you release your cursor while hovering near the left or right edges of a node, both nodes will be wrapped inside of a newly created Row.
+If you release your cursor while hovering near the **left or right edges** of a node, both nodes will be wrapped inside of a newly created **Row**.
 
 <div data-full-width="true">
 
@@ -46,7 +46,7 @@ If you release your cursor while hovering near the left or right edges of a node
 
 </div>
 
-If you hold down the CTRL/CMD key while dragging a node inside of a box or node that can support children inside of it, you will see an Alignment Insertion UI.
+If you hold down the CTRL/CMD key while dragging a node inside of another node that can support children inside of it, you will see the **Alignment Insertion UI**.
 
 <div data-full-width="true">
 
@@ -56,7 +56,7 @@ If you hold down the CTRL/CMD key while dragging a node inside of a box or node 
 
 #### Smart Suggestions
 
-By loosely positioning the nodes in the general flow of a Row or Column, you will see a Smart Suggestion to convert your selection into one or the other.
+By loosely positioning the nodes in the **general flow of a Row or Column**, you will see a _Smart Suggestion_ to convert your selection into one or the other.
 
 <div data-full-width="true">
 
@@ -66,15 +66,22 @@ By loosely positioning the nodes in the general flow of a Row or Column, you wil
 
 ### What are canvases?
 
-You can think of canvases as the screen that your layouts will be displayed inside. In other words, you can think of it as the dimensions of the display that your app will live inside. Canvases also hold additional functionality, they scope your data & variables, you preview your layout live, you can publish your canvas through the Codelessly Cloud UI service, as well as some additional benefits like supporting App Bars and Navigation Bars.
+You can think of canvases as the screen that your layouts will be displayed inside of. In other words, you can think of it as the dimensions of the display that your app will live inside. Canvases also hold additional functionality:&#x20;
+
+* They scope your data & variables. Read me about those in the upcoming sections.
+* You can publish your canvas through the **Codelessly Cloud UI** service.
+* You can preview your layout directly in the editor as if it were published with the ability to preview how your layout reacts to different device shapes.
+* Support for Flutter's built-in App Bars, Navigation Bars, and Floating Action Buttons (FABs) as direct Scaffold properties.
 
 #### What's the difference between a Freeform Canvas and an Auto Canvas?
 
-A freeform canvas <img src="../.gitbook/assets/snap_screen_20230721014801.png" alt="" data-size="line"> is a blank canvas that lets you position nodes with absolute pixel coordinates anywhere inside. They are not responsive and your layouts will not resize, reposition, adapt, or respond to any different size the canvas is set to.
+A freeform canvas <img src="../.gitbook/assets/snap_screen_20230721014801.png" alt="" data-size="line"> is a blank canvas that lets you position nodes with **absolute pixel coordinates** anywhere inside. They are **not** responsive and your layouts will not resize, reposition, adapt, or respond to any different size the canvas is set to. They do, however, respond well to the **AutoScale responsiveness mode**. Read more about the responsive modes in the upcoming sections.
 
-An auto canvas <img src="../.gitbook/assets/snap_screen_20230721015332.png" alt="" data-size="line">, on the other hand, is a Column by default. Layouts you build will immediately go into Auto Layout mode and will attempt to be as responsive as possible.
+An auto canvas <img src="../.gitbook/assets/snap_screen_20230721015332.png" alt="" data-size="line">, on the other hand, is a **Column** by default. Layouts you build will immediately go into **Auto Layout mode** and will attempt to be as responsive as possible, as if you were holding down your CMD/CTRL key when dragging items inside.
 
-It's recommended to start with an AutoCanvas as it is designed to be beginner friendly. If you have a complex layout that mixes absolute positioned and layout widgets, start with a Freeform canvas instead.
+It's recommended to start with an **AutoCanvas** as it is designed to be beginner friendly. If you have a complex layout that mixes absolute positioned and layout widgets, start with a Freeform canvas instead.
+
+It eventually boils down to your use-case, and our layout engine fully supports mixing both systems inside of each other.
 
 ### Creating an Auto Canvas
 

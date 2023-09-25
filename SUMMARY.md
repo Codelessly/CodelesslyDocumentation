@@ -8,8 +8,8 @@
 ## ⚡ Editor Basics
 
 * [Start a New Project](editor-basics/start-a-new-project.md)
-* [Creating Your First Layout](editor-basics/creating-your-first-layout.md)
 * [Editor Tools](editor-basics/editor-tools.md)
+* [Creating Your First Layout](editor-basics/creating-your-first-layout.md)
 * [Using Components](editor-basics/using-components.md)
 
 ## ⚡ Editor Advance
