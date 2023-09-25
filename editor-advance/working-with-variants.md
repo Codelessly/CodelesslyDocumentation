@@ -20,7 +20,7 @@ Think of variants as alternate versions of your components. For example,
 * Light and dark modes for a component.
 * Loading, data, error, or empty sections of your UI.
 
-> Nodes with variants are highlighted with a pink color when selected.
+> Nodes with variants are highlighted in pink when selected.
 
 ### Creating a variant
 
