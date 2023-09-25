@@ -1,0 +1,58 @@
+---
+description: Learn how to embed your own widget into Codelessly's layout.
+---
+
+# Using External Components
+
+Codelessly offers a wide range of components that can be the building blocks for most of your layouts. However, there can be times when you want to use a very specific widget that is not yet available in Codelessly or you want to use a widget from a third-party package into your codelessly layout.
+
+To fulfill this use-case, we have a component called `External Component` in the components library.
+
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>External Component</p></figcaption></figure>
+
+As the name implies, this component behaves like an iFrame and allows you to hook your own widget into it programmatically. You can pass this widget from `CodelesslyWidget` using our Cloud UI SDK.
+
+Any custom widget can be rendered inside this external component as long as it can respect its constraints.
+
+### How to Use
+
+1. Like other components, you can drag and drop this component in any of your layouts.
+2. Open settings panel for this component/node by clicking on the floating Settings button <img src="../.gitbook/assets/image (16).png" alt="" data-size="line"> next to it.
+3. Provide a unique identifier for this component. This `id` will used to identify the component from `CodelesslyWidget` in the SDK to map it to a widget builder.
+
+<figure><img src="../.gitbook/assets/image (19).png" alt="" width="563"><figcaption><p>External Component configuration</p></figcaption></figure>
+
+4. From the SDK side, where you are using `CodelesslyWidget`, pass your widget using `externalComponentBuilders` parameter like shown below.
+
+```dart
+return CodelesslyWidget(
+  config: CodelesslyConfig(authToken: '<auth_token>'),
+  layoutID: '<layout_id>',
+  externalComponentBuilders: {
+    'my_custom_widget': (context) {
+      return const Placeholder();
+    },
+  },
+)
+```
+
+Notice that the `key` needs to match exactly to the unique external ID provided in the Editor.
+
+
+
+You can have as many external components as you want. You can pass any widget including `StatefulWidget` and manage its state yourself! You can provide all of them in `CodelesslyWidget` by using their unique ids.
+
+```dart
+return CodelesslyWidget(
+  config: CodelesslyConfig(authToken: '<auth_token>'),
+  layoutID: '<layout_id>',
+  externalComponentBuilders: {
+    'widget1': (context) {
+      return const Placeholder();
+    },
+    'widget2': (context) {
+      return const Placeholder();
+    },
+  },
+)
+```

@@ -68,7 +68,7 @@ It's recommended to start with an AutoCanvas as it is designed to be beginner fr
 
 This is the tools panel. You can hover over each tool to see their name and description. Select the canvas tools and drag in the editor box area to create a new canvas.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 ### Build Your First Layout with Auto Canvas
 

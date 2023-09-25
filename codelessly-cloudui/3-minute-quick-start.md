@@ -14,7 +14,7 @@ Select the canvas you wish to publish and press the _Quick Preview_ button in th
 
 This will upload the canvas and open up a dialog with all the necessary information you need to preview the canvas.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Quick Preview Dialog</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p>Quick Preview Dialog</p></figcaption></figure>
 
 You have two options to preview the uploaded canvas:
 
@@ -22,7 +22,7 @@ You have two options to preview the uploaded canvas:
 
 Tap on the _"View a preview" button_.
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>"View a preview" Button</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p>"View a preview" Button</p></figcaption></figure>
 
 Scan the QR code from the mobile app's scanner to instantly preview the canvas. Alternatively, you can input the _Preview Key Code_ to load the preview.
 
@@ -30,7 +30,7 @@ Scan the QR code from the mobile app's scanner to instantly preview the canvas. 
 
 This is how the preview looks in the mobile app.
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Canvas Preview in Codelessly's Mobile App</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Canvas Preview in Codelessly's Mobile App</p></figcaption></figure>
 
 ### **Embedding the preview in your app**
 
@@ -111,7 +111,7 @@ class MyApp extends StatelessWidget {
 
 The app should look like this:
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Canvas embedded in app.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption><p>Canvas embedded in app.</p></figcaption></figure>
 
 Since the widget is in preview mode, whenever we make a change to the canvas in the editor, it's instantly reflected in the widget as well.
 

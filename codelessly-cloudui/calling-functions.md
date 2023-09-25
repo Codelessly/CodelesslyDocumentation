@@ -14,15 +14,15 @@ Head over to _Develop Tab_ located in the app bar.
 
 You should see the _Actions Panel_ in the right. Now, select the node you wish to add the action to.
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Node selected</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption><p>Node selected</p></figcaption></figure>
 
 To add an action, tap on the _add icon_ and select _"Call Function Action"_ from the dropdown.
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>Adding Call Function Action</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>Adding Call Function Action</p></figcaption></figure>
 
 Next, tap on the _settings icon_ to open the settings window.
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p>Action Settings Window</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37) (1).png" alt=""><figcaption><p>Action Settings Window</p></figcaption></figure>
 
 Enter the custom function's name in the _Function Name Field_.
 
@@ -39,11 +39,15 @@ We can provide custom functions to the `CodelesslyWidget` using its `functions` 
 ```dart
 CodelesslyWidget(
   functions: {
-    'expandForecastPage': CodelesslyFunction((reference) {...}),
+    'expandForecastPage': CodelesslyFunction((context, ref, params) {...}),
   }
 );
 ```
 
-`reference` is an instance of `CodelesslyContext` that you may use to access data and other functions from the SDK.
+`ref` is an instance of `CodelesslyContext` that you may use to access data and other functions from the SDK.
+
+`params` is a Map that contains any parameters passed by the function when it is called. These parameters can be defined on the function call from the Editor.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Now, node can access the function and call it on relevant trigger (_click_ in this case).
