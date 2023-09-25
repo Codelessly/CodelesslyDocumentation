@@ -4,11 +4,11 @@
 
 * [▶ Welcome Setup Guide](README.md)
 * [🎉 Thank you for your purchase!](<README (1).md>)
-* [Start a New Project](getting-started/start-a-new-project.md)
 
 ## ⚡ Editor Basics
 
-* [Editor Basics](editor-basics/editor-basics.md)
+* [Start a New Project](editor-basics/start-a-new-project.md)
+* [Creating Your First Layout](editor-basics/creating-your-first-layout.md)
 
 ## ☁ Codelessly CloudUI™ <a href="#codelessly-cloudui" id="codelessly-cloudui"></a>
 

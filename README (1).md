@@ -30,7 +30,7 @@ First, let's get you access to the Codelessly Editor.&#x20;
 
 
 
-{% content-ref url="getting-started/start-a-new-project.md" %}
-[start-a-new-project.md](getting-started/start-a-new-project.md)
+{% content-ref url="editor-basics/start-a-new-project.md" %}
+[start-a-new-project.md](editor-basics/start-a-new-project.md)
 {% endcontent-ref %}
 

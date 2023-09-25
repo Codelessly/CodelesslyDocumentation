@@ -24,7 +24,7 @@ Let's get you started with the Codelessly Editor! If you don't have a Codelessly
 
 
 
-{% content-ref url="getting-started/start-a-new-project.md" %}
-[start-a-new-project.md](getting-started/start-a-new-project.md)
+{% content-ref url="editor-basics/start-a-new-project.md" %}
+[start-a-new-project.md](editor-basics/start-a-new-project.md)
 {% endcontent-ref %}
 

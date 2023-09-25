@@ -14,7 +14,7 @@ Select the canvas you wish to publish and press the _Quick Preview_ button in th
 
 This will upload the canvas and open up a dialog with all the necessary information you need to preview the canvas.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Quick Preview Dialog</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Quick Preview Dialog</p></figcaption></figure>
 
 You have two options to preview the uploaded canvas:
 
