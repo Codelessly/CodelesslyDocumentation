@@ -40,17 +40,29 @@ If you release your cursor while hovering near the bottom or top edges of a node
 
 If you release your cursor while hovering near the left or right edges of a node, both nodes will be wrapped inside of a newly created Row.
 
-<figure><img src="../.gitbook/assets/Screen Recording 2023-09-22 at 3.49.41 PM.gif" alt=""><figcaption><p>Holding down the CTRL/CMD key and dragging a node over another node, entering layout mode to create a Row with the two items together.</p></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/ezgif.com-video-to-gif (1) (1).gif" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 If you hold down the CTRL/CMD key while dragging a node inside of a box or node that can support children inside of it, you will see an Alignment Insertion UI.
 
-<figure><img src="../.gitbook/assets/Screen Recording 2023-09-22 at 4.03.42 PM.gif" alt=""><figcaption><p>Holding down the CTRL/CMD key and dragging a node over another node, entering layout mode to align the dragged node inside the other.</p></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/ezgif.com-video-to-gif (2) (1).gif" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Smart Suggestions
 
 By loosely positioning the nodes in the general flow of a Row or Column, you will see a Smart Suggestion to convert your selection into one or the other.
 
-<figure><img src="../.gitbook/assets/Screen Recording 2023-09-22 at 3.57.30 PM.gif" alt=""><figcaption><p>Selecting multiple nodes that flow in the direction of a Column shows a Smart Suggestion to convert them as such.</p></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/ezgif.com-video-to-gif (3) (1).gif" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### What are canvases?
 
@@ -76,7 +88,11 @@ AutoCanvas is as simple as drag and drop. You will not need to hold down your CT
 
 Building layouts has never been easier!
 
-<figure><img src="../.gitbook/assets/Screen Recording 2023-09-22 at 4.27.15 PM.gif" alt=""><figcaption></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/ezgif.com-video-to-gif (4) (1).gif" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 To start, drag a widget into the AutoCanvas where it says "Drop a widget here"
 
