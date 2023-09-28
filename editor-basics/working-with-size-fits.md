@@ -10,7 +10,7 @@ To put in short, Size Fits let you define how a node **fits** inside a frame, ro
 
 Size Fits can be defined per axis, **horizontal** and **vertical**. Just select the desired Size Fit from the dropdown, or, use the _Size Fit Selector_.
 
-> GIF: Selecting Size Fits using the dropdowns and the selector UI.
+> GIF: Selecting Size Fits using the dropdowns and the selector UI. (coming soon)
 
 ## Fixed Size
 
@@ -18,11 +18,11 @@ By default, nodes are **fixed size**. This means that they do no adjust their si
 
 So, if a node is fixed size on the horizontal axis, it retains its width.
 
-> GIF: Fixed size node inside a row. Row being resized horizontally.
+> GIF: Fixed size node inside a row. Row being resized horizontally. (coming soon)
 
 If a node is fixed size on the vertical axis, it retains its height.
 
-> GIF: Fixed size node inside a Column. Column being resized vertically.
+> GIF: Fixed size node inside a Column. Column being resized vertically. (coming soon)
 
 ## Fill Parent
 
@@ -30,11 +30,11 @@ This fit expands the node to the size of its direct parent.
 
 So, if a node is set to fill parent on the horizontal axis, it expands its width to that of its parent.
 
-> GIF: Horizontally expanded node inside a frame/row. Parent being resized.
+> GIF: Horizontally expanded node inside a frame/row. Parent being resized. (coming soon)
 
 If a node is set to fill parent on the vertical axis, it expands its height to that of its parent.
 
-> GIF: Vertically expanded node inside a frame/column. Parent being resized.
+> GIF: Vertically expanded node inside a frame/column. Parent being resized. (coming soon)
 
 ## Wrap Content
 
@@ -42,8 +42,8 @@ Contrary to _**fill parent**_, this fit depends on a node's children rather than
 
 So, if a node wraps content horizontally, its width shrinks to that of its children.
 
-> GIF: Horizontally wrapped row with 3 children. First, row should be fixed size and children should have spacing. Then we select wrap content and the row shrinks.
+> GIF: Horizontally wrapped row with 3 children. First, row should be fixed size and children should have spacing. Then we select wrap content and the row shrinks. (coming soon)
 
 If a node wraps content vertically, its height shrinks to that of its children.
 
-> GIF: Vertically wrapped column with 3 children. First, column should be fixed size and children should have spacing. Then we select wrap content and the column shrinks.
+> GIF: Vertically wrapped column with 3 children. First, column should be fixed size and children should have spacing. Then we select wrap content and the column shrinks. (coming soon)

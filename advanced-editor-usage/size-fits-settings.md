@@ -14,11 +14,11 @@ In rows and columns, we often need to add some space in between the children. Th
 
 You can add a spacer by hovering over a row's child in the _Spacing Section_ and tapping the plus button.
 
-> GIF: Adding a spacer in a row.
+> GIF: Adding a spacer in a row. (coming soon)
 
 Or, if you want equal spacing between all the children, you can define it next to spacing section's header.
 
-> GIF: Define spacing for all children.
+> GIF: Define spacing for all children. (coming soon)
 
 Same goes for column.
 
@@ -46,8 +46,8 @@ Alignment is an important aspect of responsiveness, especially when the row/colu
 
 Changing alignment is simple. Just select the preferred alignment from the spacing section.
 
-> GIF: Selecting a main axis alignment and a cross axis alignment for a row and children changing their positions visibly.
+> GIF: Selecting a main axis alignment and a cross axis alignment for a row and children changing their positions visibly. (coming soon)
 
-## Flex Ratios
+## Flex Ratios (Coming Soon)
 
-Flex ratios help us define how much space a node takes with respect to the available space. If
+Flex ratios help us define how much space a node takes with respect to the available space.

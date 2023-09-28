@@ -13,11 +13,11 @@
 * [Using Components](editor-basics/using-components.md)
 * [Working with Size Fits](editor-basics/working-with-size-fits.md)
 
-## ⚡ Editor Advance
+## ⚡ Advanced Editor Usage
 
-* [Working with Variants](editor-advance/working-with-variants.md)
-* [Using External Components](editor-advance/using-external-components.md)
-* [Size Fits Settings](editor-advance/size-fits-settings.md)
+* [Working with Variants](advanced-editor-usage/working-with-variants.md)
+* [Using External Components](advanced-editor-usage/using-external-components.md)
+* [Size Fits Settings](advanced-editor-usage/size-fits-settings.md)
 
 ## ☁ Codelessly CloudUI™ <a href="#codelessly-cloudui" id="codelessly-cloudui"></a>
 
