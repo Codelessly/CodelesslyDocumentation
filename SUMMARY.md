@@ -24,3 +24,9 @@
 * [3-Minute Quick Start](codelessly-cloudui/3-minute-quick-start.md)
 * [Connecting Data](codelessly-cloudui/connecting-data.md)
 * [Calling Functions](codelessly-cloudui/calling-functions.md)
+
+## Custom Deployments and Publishing
+
+* [Linking with Github Repository](custom-deployments-and-publishing/linking-with-github-repository.md)
+* [Deploy on Netlify](custom-deployments-and-publishing/deploy-on-netlify.md)
+* [Deploy on Vercel](custom-deployments-and-publishing/deploy-on-vercel.md)

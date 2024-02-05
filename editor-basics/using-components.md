@@ -6,7 +6,7 @@ description: Learn how to use and customize components available in the Editor.
 
 <div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Components Library</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Components Library</p></figcaption></figure>
 
 </div>
 
@@ -44,7 +44,7 @@ Click on this `+` button in the tools panel on the left of the editor to open co
 
 <div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>How to open components library.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>How to open components library.</p></figcaption></figure>
 
 </div>
 
@@ -60,7 +60,7 @@ All these components support full customization of how they look and function. T
 
 <div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Accessing component settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Accessing component settings</p></figcaption></figure>
 
 </div>
 
