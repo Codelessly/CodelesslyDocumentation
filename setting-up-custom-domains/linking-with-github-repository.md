@@ -45,14 +45,14 @@ You have successfully connected your [Github](https://github.com/) account with 
 After you connect [Codelessly](https://codelessly.com/) with your [Github](https://github.com/) account, you need to link your project to a specific repository on [Github](https://github.com/) so we can push code and updates and set everything up for you.
 
 1. Open a project that you want to connect to a [Github](https://github.com/) repository.
-2. Click on arrow button<img src="../.gitbook/assets/image (1).png" alt="" data-size="line"> next to publish button and click on `Go to Settings`.
+2. Click on arrow button<img src="../.gitbook/assets/image (1) (1).png" alt="" data-size="line"> next to publish button and click on `Go to Settings`.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Opening publish settings for a project.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt="" width="375"><figcaption><p>Opening publish settings for a project.</p></figcaption></figure>
 
 3. Go to `Website` tab. You will see `Link Project with Github` section.
 4. Select owner of the repository from the dropdown. You can add organizations by clicking on `Add Another Organization` button in the selection dropdown and it will prompt you to install our [Github](https://github.com) app for the organization you want to use for this.
 5. Specify a repository name for your project. [Codelessly](https://codelessly.com/) will take care of creating the repository and pushing code for you.
 6. Hit `Save & Link` button to let [Codelessly](https://codelessly.com/) create the repository and link it with your project.
-7. Once it succeeds, you can click on <img src="../.gitbook/assets/image (2).png" alt="" data-size="line"> button next to repository name input to open your linked repository.
+7. Once it succeeds, you can click on <img src="../.gitbook/assets/image (2) (1).png" alt="" data-size="line"> button next to repository name input to open your linked repository.
 
 See deployment docs for proceeding further with your [Github](https://github.com/) repository.

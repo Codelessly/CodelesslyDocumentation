@@ -48,6 +48,6 @@ CodelesslyWidget(
 
 `params` is a Map that contains any parameters passed by the function when it is called. These parameters can be defined on the function call from the Editor.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now, node can access the function and call it on relevant trigger (_click_ in this case).

@@ -30,7 +30,7 @@ Scan the QR code from the mobile app's scanner to instantly preview the canvas. 
 
 This is how the preview looks in the mobile app.
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Canvas Preview in Codelessly's Mobile App</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption><p>Canvas Preview in Codelessly's Mobile App</p></figcaption></figure>
 
 ### **Embedding the preview in your app**
 

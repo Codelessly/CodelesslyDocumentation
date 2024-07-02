@@ -10,7 +10,7 @@ To fulfill this use-case, we have a component called `External Component` in the
 
 <div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>External Component</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>External Component</p></figcaption></figure>
 
 </div>
 
@@ -21,12 +21,12 @@ Any custom widget can be rendered inside this external component as long as it c
 ### Usage
 
 1. Like other components, you can drag and drop this component in any of your layouts.
-2. Open the settings panel for this component by clicking on the floating Settings button <img src="../.gitbook/assets/image (16).png" alt="" data-size="line"> next to it.
+2. Open the settings panel for this component by clicking on the floating Settings button <img src="../.gitbook/assets/image (16) (1).png" alt="" data-size="line"> next to it.
 3. Provide a unique identifier for this component. This `id` will used to identify the component from `CodelesslyWidget` in the SDK to map it to a widget builder.
 
 <div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/image (19).png" alt="" width="563"><figcaption><p>External Component configuration</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt="" width="563"><figcaption><p>External Component configuration</p></figcaption></figure>
 
 </div>
 

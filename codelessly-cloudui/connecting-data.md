@@ -14,7 +14,7 @@ ${books.chapters.titles[0]}
 
 In case of the example weather app, we declare the JSON path that points to a temperature.
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>Dynamic Temperature</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p>Dynamic Temperature</p></figcaption></figure>
 
 Next up, providing the data to the layout in the SDK.
 

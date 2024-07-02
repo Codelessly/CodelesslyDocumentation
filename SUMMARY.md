@@ -2,8 +2,10 @@
 
 ## 👋 Getting Started
 
-* [▶ Welcome Setup Guide](README.md)
+* [▶️ Welcome Setup Guide](README.md)
 * [🎉 Thank you for your purchase!](<README (1).md>)
+* [🔀 Import Figma designs into Codelessly](getting-started/import-figma-designs-into-codelessly.md)
+* [🖨️ Publish your design as a website](getting-started/publish-your-design-as-a-website.md)
 
 ## ⚡ Editor Basics
 
@@ -19,14 +21,14 @@
 * [Using External Components](advanced-editor-usage/using-external-components.md)
 * [Size Fits Settings](advanced-editor-usage/size-fits-settings.md)
 
-## ☁ Codelessly CloudUI™ <a href="#codelessly-cloudui" id="codelessly-cloudui"></a>
+## ☁️ Codelessly CloudUI™ <a href="#codelessly-cloudui" id="codelessly-cloudui"></a>
 
 * [3-Minute Quick Start](codelessly-cloudui/3-minute-quick-start.md)
 * [Connecting Data](codelessly-cloudui/connecting-data.md)
 * [Calling Functions](codelessly-cloudui/calling-functions.md)
 
-## Custom Deployments and Publishing
+## Setting Up Custom Domains
 
-* [Linking with Github Repository](custom-deployments-and-publishing/linking-with-github-repository.md)
-* [Deploy on Netlify](custom-deployments-and-publishing/deploy-on-netlify.md)
-* [Deploy on Vercel](custom-deployments-and-publishing/deploy-on-vercel.md)
+* [Linking with Github Repository](setting-up-custom-domains/linking-with-github-repository.md)
+* [Deploy on Netlify](setting-up-custom-domains/deploy-on-netlify.md)
+* [Deploy on Vercel](setting-up-custom-domains/deploy-on-vercel.md)
