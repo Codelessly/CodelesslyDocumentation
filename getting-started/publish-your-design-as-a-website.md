@@ -4,9 +4,13 @@ description: Learn how to publish your design as a website from Codelessly
 
 # 🖨️ Publish your design as a website
 
-Codelessly supports publishing your design as a website very easily right from the editor. Website publishing makes your design/website visible on the Internet. We support publishing to Codelessly's subdomain [site.codelessly.com](https://site.codelessly.com) for easier iteration. See our guide on [Custom deployments and publishing](broken-reference) to learn how to publish to your own domain.
+Codelessly supports publishing your design as a website with a single click. Codelessly's AutoScale technology will automatically resize your designs to fit on different screen sizes.&#x20;
 
-Follow these steps to configure your website publishing and see your designs become a reality.
+Let's turn your designs into a website!
+
+{% hint style="info" %}
+See our guide on [Custom deployments and publishing](broken-reference) to learn how to publish to a custom domain when you are ready.
+{% endhint %}
 
 ## Configuring Website Publishing
 
@@ -41,4 +45,4 @@ After that, you can just hit the publish button whenever you want to re-publish 
 
 ### Publishing on your own Custom Domain
 
-We don't directly support assigning a custom domain to your site.codelessly.com deployment. However, we support publishing with third-party platforms like [Netlify](https://www.netlify.com/) and [Vercel](https://vercel.com/) through a [Github Repository](../setting-up-custom-domains/linking-with-github-repository.md). Checkout our [Custom Deployments and Publishing](broken-reference) guide on how to publish with a custom domain.
+We don't directly support assigning a custom domain to your site.codelessly.com deployment. However, we support publishing with third-party platforms like [Netlify](https://www.netlify.com/) and [Vercel](https://vercel.com/) through a [Github Repository](../custom-deployments-and-publishing/linking-with-github-repository.md). Checkout our [Custom Deployments and Publishing](broken-reference) guide on how to publish with a custom domain.

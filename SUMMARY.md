@@ -29,6 +29,6 @@
 
 ## Setting Up Custom Domains
 
-* [Linking with Github Repository](setting-up-custom-domains/linking-with-github-repository.md)
-* [Deploy on Netlify](setting-up-custom-domains/deploy-on-netlify.md)
-* [Deploy on Vercel](setting-up-custom-domains/deploy-on-vercel.md)
+* [Linking with Github Repository](custom-deployments-and-publishing/linking-with-github-repository.md)
+* [Deploy on Netlify](custom-deployments-and-publishing/deploy-on-netlify.md)
+* [Deploy on Vercel](custom-deployments-and-publishing/deploy-on-vercel.md)
