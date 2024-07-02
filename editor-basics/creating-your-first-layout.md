@@ -12,21 +12,21 @@ description: >-
 2. Ways to create rows and columns.
 3. Creating an auto canvas & freeform canvas.
 
-### The difference between freeform layouts and auto layouts.
+### Freeform vs Auto
 
-At Codelessly, we refuse to limit your creations in any way. As such, we have two primary positioning systems, Freeform and Auto.
+Codelessly supports two positioning systems, Freeform and Auto.
 
 #### Freeform
 
 A freeform layout is one in which all elements use exact pixel coordinates relative to their parent elements to place themselves.
 
-If you're a familiar with Figma, Freeform is what you'll normally be used to.
+If you're a familiar with common design tools such as Figma, Freeform is the positioning system most design tools use.
 
-Freeform is excellent for designers in general, but it fails when it comes to responsve UI. If you wish for the mobile-shaped screen you built to be used in any other screen resolution like desktop, the layout will not adapt properly.&#x20;
+Freeform is excellent for design but is not responsive. For designs to resize to multiple screen sizes, you'll need to use Auto layout.
 
 #### Auto
 
-With auto layouts, your screens are built out of combinations of **Rows** and **Columns**. Each element is placed in some structured fashion such that the **Rows** and **Columns** control the positioning and sizing of each element. On top of that, each element might size itself with its own rules. We'll learn more about how elements can size themselves differently in the next sections.
+With Auto layouts, your screens are built with **Rows** and **Columns**. Each element is placed in some structured fashion such that the **Rows** and **Columns** control the positioning and sizing of each element. On top of that, each element might size itself with its own rules. We'll learn more about how elements can size themselves differently in the next sections.
 
 ### Creating Rows & Columns
 
