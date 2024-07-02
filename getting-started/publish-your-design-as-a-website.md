@@ -9,12 +9,12 @@ Codelessly supports publishing your design as a website with a single click. Cod
 Let's turn your designs into a website!
 
 {% hint style="info" %}
-See our guide on [Custom deployments and publishing](broken-reference) to learn how to publish to a custom domain when you are ready.
+When you're ready to publish to a custom domain, see our guide on [Custom deployments and publishing](broken-reference)
 {% endhint %}
 
-## Configuring Website Publishing
+## Quickstart
 
-Once you have your design ready, you need to configure your website publishing settings to be able to publish it as a website.
+After you import or create a design, you'll need to choose a unique URL for your website.
 
 1. Click on the chevron icon <img src="../.gitbook/assets/image.png" alt="" data-size="line"> next to the publish button.
 
@@ -28,8 +28,8 @@ Once you have your design ready, you need to configure your website publishing s
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-3. Under the **Publish Site** section, set a custom slug for your website. Use a subdirectory name of your choice. This will be the URL for your website. Note that the name must be universally unique across all Codelessly subdirectories.
-4. Click on the **Save & Publish** button to save your configuration and publish your website and wait for it to finish publishing.
+3. Under the **Publish Site** section, set a custom slug for your website. Use a subdirectory name of your choice. This will be the URL for your website.
+4. Click on the **Save & Publish** button to save your configuration. Codelessly will now deploy your website.
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
@@ -37,12 +37,14 @@ Once you have your design ready, you need to configure your website publishing s
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-To republish again, Click on the chevron dropdown button and make sure the checkbox in the website section is selected. Hit the Publish button after that and your website will be updated.
+## Publishing Updates
+
+Codelessly supports 1-Click publishing. To publish updates, click on the chevron dropdown button and make sure the checkbox in the website section is selected. Hit the Publish button to update your website.
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-After that, you can just hit the publish button whenever you want to re-publish again!
+With 1-Click publishing, you can simply press the publish button whenever you want to publish changes!
 
 ### Publishing on your own Custom Domain
 
-We don't directly support assigning a custom domain to your site.codelessly.com deployment. However, we support publishing with third-party platforms like [Netlify](https://www.netlify.com/) and [Vercel](https://vercel.com/) through a [Github Repository](../custom-deployments-and-publishing/linking-with-github-repository.md). Checkout our [Custom Deployments and Publishing](broken-reference) guide on how to publish with a custom domain.
+We support integrating with third-party platforms like [Netlify](https://www.netlify.com/) and [Vercel](https://vercel.com/) and Github for publishing to custom domains. See our [Custom Deployments and Publishing](broken-reference) guide for more info.
