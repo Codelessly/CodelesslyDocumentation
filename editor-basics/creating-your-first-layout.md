@@ -40,7 +40,7 @@ If you hold down the CTRL/CMD key while dragging a node inside of another node t
 
 #### Smart Suggestions
 
-By loosely positioning the nodes in the **general flow of a Row or Column**, you will see a _Smart Suggestion_ to convert your selection into one or the other.
+By positioning the nodes in the **layout of a Row or Column**, you will see a _Smart Suggestion_ to convert your selection into one or the other.
 
 <div data-full-width="true">
 
