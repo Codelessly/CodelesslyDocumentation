@@ -12,22 +12,6 @@ description: >-
 2. Ways to create rows and columns.
 3. Creating an auto canvas & freeform canvas.
 
-### Freeform vs Auto
-
-Codelessly supports two positioning systems, Freeform and Auto.
-
-#### Freeform
-
-A freeform layout is one in which all elements use exact pixel coordinates relative to their parent elements to place themselves.
-
-If you're a familiar with common design tools such as Figma, Freeform is the positioning system most design tools use.
-
-Freeform is excellent for design but is not responsive. For designs to resize to multiple screen sizes, you'll need to use Auto layout.
-
-#### Auto
-
-With Auto layouts, your screens are built with **Rows** and **Columns**. Each element is placed in some structured fashion such that the **Rows** and **Columns** control the positioning and sizing of each element. On top of that, each element might size itself with its own rules. We'll learn more about how elements can size themselves differently in the next sections.
-
 ### Creating Rows & Columns
 
 There are two ways to create Rows & Columns.
@@ -64,24 +48,21 @@ By loosely positioning the nodes in the **general flow of a Row or Column**, you
 
 </div>
 
-### What are canvases?
+### Freeform vs Auto
 
-You can think of canvases as the screen that your layouts will be displayed inside of. In other words, you can think of it as the dimensions of the display that your app will live inside. Canvases also hold additional functionality:&#x20;
+Codelessly supports two positioning systems, Freeform and Auto. Switching between them is very easy and intuitive, just hold down Ctrl / Cmd while dragging a widget! The layout system will automatically switch between Freeform and Auto.
 
-* They scope your data & variables. Read me about those in the upcoming sections.
-* You can publish your canvas through the **Codelessly Cloud UI** service.
-* You can preview your layout directly in the editor as if it were published with the ability to preview how your layout reacts to different device shapes.
-* Support for Flutter's built-in App Bars, Navigation Bars, and Floating Action Buttons (FABs) as direct Scaffold properties.
+#### Freeform
 
-#### What's the difference between a Freeform Canvas and an Auto Canvas?
+A freeform layout is one in which all elements use exact pixel coordinates relative to their parent elements to place themselves.
 
-A freeform canvas <img src="../.gitbook/assets/snap_screen_20230721014801.png" alt="" data-size="line"> is a blank canvas that lets you position nodes with **absolute pixel coordinates** anywhere inside. They are **not** responsive and your layouts will not resize, reposition, adapt, or respond to any different size the canvas is set to. They do, however, respond well to the **AutoScale responsiveness mode**. Read more about the responsive modes in the upcoming sections.
+If you're a familiar with common design tools such as Figma, Freeform is the positioning system most design tools use.
 
-An auto canvas <img src="../.gitbook/assets/snap_screen_20230721015332.png" alt="" data-size="line">, on the other hand, is a **Column** by default. Layouts you build will immediately go into **Auto Layout mode** and will attempt to be as responsive as possible, as if you were holding down your CMD/CTRL key when dragging items inside.
+Freeform is excellent for design but is not responsive. For designs to resize to multiple screen sizes, you'll need to use Auto layout.
 
-It's recommended to start with an **AutoCanvas** as it is designed to be beginner friendly. If you have a complex layout that mixes absolute positioned and layout widgets, start with a Freeform canvas instead.
+#### Auto
 
-It eventually boils down to your use-case, and our layout engine fully supports mixing both systems inside of each other.
+With Auto layouts, your screens are built with **Rows** and **Columns**. Each element is placed in some structured fashion such that the **Rows** and **Columns** control the positioning and sizing of each element. On top of that, each element might size itself with its own rules. We'll learn more about how elements can size themselves differently in the next sections.
 
 ### Creating an Auto Canvas
 
@@ -112,3 +93,22 @@ To start, drag a widget into the AutoCanvas where it says "Drop a widget here"
 **Row** - Create a row by dragging to the left or right edge.
 
 <figure><img src="../.gitbook/assets/snap_screen_20230721030542.png" alt=""><figcaption></figcaption></figure>
+
+### What are canvases?
+
+You can think of canvases as the screen that your layouts will be displayed inside of. In other words, you can think of it as the dimensions of the display that your app will live inside. Canvases also hold additional functionality:&#x20;
+
+* They scope your data & variables. Read me about those in the upcoming sections.
+* You can publish your canvas through the **Codelessly Cloud UI** service.
+* You can preview your layout directly in the editor as if it were published with the ability to preview how your layout reacts to different device shapes.
+* Support for Flutter's built-in App Bars, Navigation Bars, and Floating Action Buttons (FABs) as direct Scaffold properties.
+
+#### What's the difference between a Freeform Canvas and an Auto Canvas?
+
+A freeform canvas <img src="../.gitbook/assets/snap_screen_20230721014801.png" alt="" data-size="line"> is a blank canvas that lets you position nodes with **absolute pixel coordinates** anywhere inside. They are **not** responsive and your layouts will not resize, reposition, adapt, or respond to any different size the canvas is set to. They do, however, respond well to the **AutoScale responsiveness mode**. Read more about the responsive modes in the upcoming sections.
+
+An auto canvas <img src="../.gitbook/assets/snap_screen_20230721015332.png" alt="" data-size="line">, on the other hand, is a **Column** by default. Layouts you build will immediately go into **Auto Layout mode** and will attempt to be as responsive as possible, as if you were holding down your CMD/CTRL key when dragging items inside.
+
+It's recommended to start with an **AutoCanvas** as it is designed to be beginner friendly. If you have a complex layout that mixes absolute positioned and layout widgets, start with a Freeform canvas instead.
+
+It eventually boils down to your use-case, and our layout engine fully supports mixing both systems inside of each other.
